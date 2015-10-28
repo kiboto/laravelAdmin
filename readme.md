@@ -2,46 +2,6 @@
 
 Laravel 4 Bootstrap Admin Starter Template is a sample application for beginning development with Laravel 4.
 
-## Features
-
-* Bootstrap 3.x
-* Custom Error Pages
-	* 403 for forbidden page accesses
-	* 404 for not found pages
-	* 500 for internal server errors
-* Confide for Authentication and Authorization
-* Back-end
-	* Admin Template using [adminLTE](https://github.com/almasaeed2010/AdminLTE)
-	* User and Role management
-	* Manage blog posts and comments
-	* [WYSIWYG](https://github.com/xing/wysihtml5) editor for post creation and editing.
-    * [DataTables](https://github.com/DataTables/DataTables) dynamic table sorting and filtering.
-    * [Colorbox](https://github.com/jackmoore/colorbox) Lightbox jQuery modal popup.
-    * [Select 2](https://github.com/ivaynberg/select2) jQuery-based replacement for select boxes
-    * [Bootstrap Datepicker](http://www.eyecon.ro/bootstrap-datepicker)
-* Front-end
-	* [Bootflat](https://github.com/flathemes/bootflat) Flat UI KIT Template
-	* User login, registration, forgot password
-	* User account area
-	* Simple Blog functionality
-* Supports Oracle Database
-* Packages included:
-	* [Confide](https://github.com/zizaco/confide)
-	* [Entrust](https://github.com/zizaco/entrust)
-	* [Laravel 4 Debugbar](https://github.com/barryvdh/laravel-debugbar)
-	* [Laravel-OCI8](https://github.com/yajra/laravel-oci8)
-	* [Laravel-Datatables-Oracle](https://github.com/yajra/laravel-datatables-oracle)
-
-## Issues
-See [github issue list](https://github.com/yajra/laravel-admin-template/issues) for current list.
-
-## Recommendations
-I recommend that you use Grunt to compile and minify your assets. See this [article](http://blog.elenakolevska.com/using-grunt-with-laravel-and-bootstrap) for details.
-
-Also I recommend using [Former](http://anahkiasen.github.io/former/) for your forms. It's an excellent library.
-
------
-
 ##Requirements
 
 	PHP >= 5.4.0
@@ -52,11 +12,11 @@ Also I recommend using [Former](http://anahkiasen.github.io/former/) for your fo
 ### Step 1: Get the code
 #### Option 1: Git Clone
 
-	git clone https://github.com/yajra/laravel-admin-template.git laravel
+	git clone https://github.com/kiboto/laravelAdmin.git
 
 #### Option 2: Download the repository
 
-    https://github.com/yajra/laravel-admin-template/archive/master.zip
+    https://github.com/kiboto/laravelAdmin/archive/master.zip
 
 ### Step 2: Use Composer to install dependencies
 #### Option 1: Composer is not installed globally
@@ -69,17 +29,7 @@ Also I recommend using [Former](http://anahkiasen.github.io/former/) for your fo
     cd laravel
 	composer install --dev
 
-If you haven't already, you might want to make [composer be installed globally](http://andrewelkins.com/programming/php/setting-up-composer-globally-for-laravel-4/) for future ease of use.
-
-Please note the use of the `--dev` flag.
-
-Some packages used to preprocess and minify assests are required on the development environment.
-
-When you deploy your project on a production environment you will want to upload the ***composer.lock*** file used on the development environment and only run `php composer.phar install` on the production server.
-
-This will skip the development packages and ensure the version of the packages installed on the production server match those you developped on.
-
-NEVER run `php composer.phar update` on your production server.
+Note: delete file composer.lock
 
 ### Step 3: Configure Environments
 
@@ -254,10 +204,8 @@ Try using this with doing the install instead.
 
 ## License
 
-This is free software distributed under the terms of the MIT license
+Source : https://github.com/yajra
 
 ## Additional information
 
-Inspired by and based on [Laravel-4-Bootstrap-Starter-Site](https://github.com/andrewelkins/Laravel-4-Bootstrap-Starter-Site)
-
-Any questions, feel free to [contact me](mailto:aqangeles@gmail.com).
+Any questions, feel free to [contact me](mailto:letrung232@gmail.com).
