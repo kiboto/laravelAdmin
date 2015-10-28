@@ -1,6 +1,6 @@
 # Laravel
 /bootstrap/compiled.php
-/vendor
+vendor
 
 # Configuration
 /app/config/local
@@ -14,7 +14,7 @@
 # Composer
 composer.phar
 #include composer.lock for production
-//composer.lock
+composer.lock
 
 # OS
 .DS_Store
